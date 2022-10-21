@@ -1,0 +1,33 @@
+.site-title {
+
+    font-size: 1rem;
+    color: gray;
+    font-weight: 700;
+    margin-right: 2rem;
+}
+
+.container {
+    margin: auto;
+    max-width: 100rem;
+    font-family: sans-serif;
+}
+
+
+.heading {
+    color: rebeccapurple;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-link-item {
+    padding-right: 2rem;
+}
+
+.nav-link-text {
+    color: black;
+}
+

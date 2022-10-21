@@ -1,0 +1,21 @@
+.image-block{
+    display: flex;
+}
+.concatenated-text{
+    margin: 1rem;
+}
+.image-caption{
+    font-size: .7rem;
+    color: gray ;  
+    margin: 0; 
+}
+.image-block a{
+    color:gray;
+    border-bottom: 3px solid #fff3;
+}
+.image-block a:hover{
+    border-bottom-color: rgba(138, 203, 247, 0.6);
+}
+.img-w-caption{
+    flex-direction: column;
+}
