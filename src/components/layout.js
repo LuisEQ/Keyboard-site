@@ -9,7 +9,7 @@ import {
   siteTitle,
   content,
 } from "./layout.module.css";
-
+//Este layout.js es para definir cómo se verá la página y cómo estará concatenado todo el contenido
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
     query {
@@ -20,12 +20,13 @@ const Layout = ({ pageTitle, children }) => {
       }
     }
   `);
+  //La query anterior es para conseguir de graphql información respecto a la página
   return (
     <div className={container}>
       <title>
         {pageTitle} | {data.site.siteMetadata.title}
       </title>
-
+      {/* Este es el navbar */}
       <nav>
         <ul className={navLinks}>
           <header className={siteTitle}>{data.site.siteMetadata.title}</header>

@@ -6,6 +6,7 @@ import "./comunidades.css";
 
 const Comunidades = () => {
   return (
+    //Retorna información respecto a las diferentes comunidades que hay en teclados y los contactos de los que se encargan de darle mantenimiento a la pagina
     <Layout pageTitle="Comunidades y contactos">
       <p>
         ¡Hola! aquí podrás encontrar todos nuestros links a diferentes

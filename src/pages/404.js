@@ -23,7 +23,7 @@ const codeStyles = {
   fontSize: "1.25rem",
   borderRadius: 4,
 };
-
+//Esta pagina aparecerá si el link ingresado no es válido
 // markup
 const NotFoundPage = () => {
   return (

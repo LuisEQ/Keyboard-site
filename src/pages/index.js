@@ -6,6 +6,7 @@ import { Link } from "gatsby";
 
 const IndexPage = () => {
   return (
+    //Página principal, en esta se tienen datos importantes respecto a teclados al igual que hyperlinks a diferentes páginas
     <Layout pageTitle="Información">
       <div className="index">
         <b>¿Qué es un teclado mecánico?</b>
@@ -37,6 +38,7 @@ const IndexPage = () => {
           placeholder="blurred"
           layout="constrained"
         />
+        {/* Imagen estática ya que no cambia */}
         <h1>Partes de un teclado</h1>
         <h1>Tamaños de teclado</h1>
         <p>
