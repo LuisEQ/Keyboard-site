@@ -1,0 +1,155 @@
+\documentclass{scrreprt}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{underscore}
+\usepackage[bookmarks=true]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{float,graphics,epsfig}
+
+\hypersetup{
+	bookmarks=false,
+	pdftitle={Especificación de Requerimientos de Software},
+	pdfauthor={Gerardo Tinoco Guerrero},
+	colorlinks=true,
+	linkcolor=blue,
+	citecolor=black,
+	filecolor=black,
+	urlcolor=purple,
+	linktoc=page
+}
+
+\def\myversion{1.0 }
+
+\begin{document}
+
+	\begin{flushright}
+		\rule{16cm}{5pt}\vskip1cm
+		\begin{bfseries}
+			\huge{ESPECIFICACIÓN DE REQUERIMIENTOS DE SOFTWARE}\\
+			\vspace{1.9cm}
+			para\\
+			\vspace{1.9cm}
+			``Proyecto final de página web de tutoriales de teclados"\\
+			\vspace{1.9cm}
+			\LARGE{Version \myversion}\\
+			\vspace{1.9cm}
+			Preparado por Gerardo Tinoco Guerrero\\
+			\vspace{1.9cm}
+			Realizado por Luis Eduardo Quintero López\\
+			\vspace{1.9cm}
+			\today\\
+		\end{bfseries}
+	\end{flushright}
+	
+	\tableofcontents
+	
+
+	
+	\chapter*{Historial de Revisiones}
+
+		\begin{center}
+			\begin{tabular}{|c|c|c|c|}
+				\hline
+				Nombre	&	Fecha	&	Razón de los cambios	&	Versión\\
+				\hline
+				Luis Eduardo Quintero López	& 	\today 	& 	Primera iteración 				& 	1\\
+				\hline
+			\end{tabular}
+		\end{center}
+		
+	\chapter{Introducción}
+		Este proyecto es una página web realizada con React y Gatsby. Gatsby es un nuevo enfoque para crear aplicaciones web, basado en tecnologías modernas como React y graphql, que te permiten construir sitios web que cargan y se ejecutan de manera muy rápida. Esto nos sirve para el enfoque que tendremos en la página web, que es una wiki y tutoriales del tema de teclados mecánicos custom, esta en español únicamente e intentando utilizar un español neutro para que pueda ser leída por una persona de cualquier país de habla hispana.\\
+¿Por qué una página web? En este formato nos podría ser más fácil que cualquier persona pueda leer el contenido sin tener que descargar nada y la complejidad de esta no es lo suficiente como para justificar una aplicación, también al usar Gatsby nos da la ventaja de que todo carga rápido para el usuario y se siente responsiva desde el momento que se abre. \\
+\\
+La razón por la que quiero hacer una página web de teclados, es para ayudar a que el hobby crezca, que tengamos dentro del nicho información verídica en español, ya que como no lleva tantos años, hay muy poca información y esta solo se encuentra en inglés, coreano y japonés y es escasa, por lo que de esta forma se tendría la primer página en español de ello, alentaría a la gente que no sabe uno de estos idiomas pero le interesa el tema en meterse al hobby sin la necesidad de tener que estar todo el tiempo utilizando traductores u otras cosas.\\
+
+		\begin{figure}[htbp]
+			\begin{center}
+				\includegraphics[width = 0.5\textwidth , height = 5cm]{3}
+				\caption{Imagen de nazaré 1-60 de Nazaré Engineering}
+				\label{referencia}
+			\end{center}
+		\end{figure}
+
+		
+		%{Por ejemplo, sigo escribiendo aquí. En la Figura \ref{referencia} podemos ver una imagen.
+		
+		\section{Propósito}
+		Este proyecto tiene como propósito iniciar mi proyecto personal de hacer esta página web ya en un framework, ya que anteriormente estaba realizada con notion, que funciona pero no es del todo agradable a la vista y es algo lenta, también la personalización es casi nula pero la ventaja de tenerlo en notion es que hacer el setup y tener una base es muy sencilla gracias a las plantillas y el cómo funciona notion. Utilizando React y Gatsby se tiene una página muy rápida, que esto es una gran ventaja contra notion, también al hacer la página desde 0 se tiene el poder de modificar el diseño por completo, algo que ayudará a la estética bastante a comparación de con notion.\\
+		%\section* {Esta sección no aparece porque tiene un asterisco( no aparece en el indicie y no esta ennumerado)} %LEER ESTO
+	
+		\section{Público objetivo y sugerencias de lectura}
+	El público objectivo es aquellos que necesitan trabajar en el proyecto ya sea dentro del frontend, backend o que necesitan trabajar con el proyecto de una manera más externa.
+Se sugiere se lea toda la introducción para poder entender cómo va y se entiendan las bases del proyecto para poder entender las siguientes secciones que ya dan por entendido que se sabe qué es lo que se está viendo. Después de la introducción es posible irse a la sección en la que se necesita la información, de esta manera ya se entenderá fácil el tema tratado.\\
+	
+		\section{Alcance del proyecto}
+	El alcance que contiene es tener cumplidos los requisitos funcionales y no funcionales marcados al inicio del proyecto
+	
+		\section{Referencias}
+	
+	\chapter{Descripción general}
+	
+		\section{Perspectiva del producto}
+	
+		\section{Funciones del producto}
+	
+		\section{Clases de usuario y características}
+	
+		\section{Entorno operativo}
+	
+		\section{Restricciones de diseño e implementación}
+	
+		\section{Documentación del usuario}
+	
+	\chapter{Requisitos de la interfaz externa}
+	
+		\section{Interfaces de usuario}
+		
+		\section{Interfaces de hardware}
+		
+		\section{Interfaces de software}
+		
+		\section{Interfaces de comunicaciones}
+
+	\chapter{Características del sistema}
+		\section{Característica del sistema 1}
+			
+			\subsection{Description and Priority}
+			
+			\subsection{Descripción y Prioridad}
+			
+			\subsection{Requerimientos funcionales}
+			
+		\section{Característica del sistema 2 (y así sucesivamente)}
+		
+	\chapter{Otros requisitos no funcionales}
+	
+		\section{Requisitos de desempeño}
+		
+		\section{Requerimientos de seguridad}
+		
+		\section{Requerimientos de seguridad}
+		
+		\section{Atributos de calidad del software}
+		
+		\section{Reglas del negocio}
+
+	\chapter{Otros requerimientos}
+
+	\chapter*{Apéndice A: Glosario}
+El frontend es la parte del desarrollo web que se dedica a la parte frontal de un sitio web, en pocas palabras del diseño de un sitio web, desde la estructura del sitio hasta los estilos como colores, fondos, tamaños hasta llegar a las animaciones y efectos.\\
+
+HTML (lenguaje de marcado de hipertexto, se utilizan etiquetas que estructuran y organizan el contenido de la web). \\
+
+CSS (se encarga del formato y diseño visual de las páginas web escritas en html) para darle estructura y estilo al sitio. \\
+
+Javascript (un lenguaje de programación, rápido y seguro para programar centros de datos, consolas, teléfonos móviles o Internet) para complementar los anteriores y darle dinamismo a los sitios web. \\
+
+Backend es la capa de acceso a los datos, ya sea de un software o de un dispositivo en general, es la lógica tecnológica que hace que una página web funcione, lo que queda oculto a ojos del visitante.\\
+
+Framework es un esquema o marco de trabajo que ofrece una estructura base para elaborar un proyecto con objetivos específicos, una especie de plantilla que sirve como punto de partida para la organización y desarrollo de software.\\
+		
+	\chapter*{Apéndice B: Modelos de análisis}
+
+\end{document}
